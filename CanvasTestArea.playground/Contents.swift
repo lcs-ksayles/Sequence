@@ -41,6 +41,15 @@ canvas.drawEllipse(centreX: 500, centreY: 450, width: 150, height: 150, borderWi
 
 canvas.lineColor = Color.orange
 
+canvas.lineColor = Color.yellow
+canvas.defaultLineWidth=5
+canvas.drawLine(fromX: 0, fromY: 500, toX: 0, toY: 0)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 100, toY: 0)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 200, toY: 0)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 300, toY: 0)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 400, toY: 0)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 500, toY: 0)
+
 // This code is necassary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
 
